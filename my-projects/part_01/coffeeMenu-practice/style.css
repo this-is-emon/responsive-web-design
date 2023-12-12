@@ -7,3 +7,20 @@ body {
 .menu-div {
   background-color: #deb887;
 }
+
+h1,
+h2,
+p,
+img {
+  text-align: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
