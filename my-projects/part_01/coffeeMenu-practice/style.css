@@ -3,9 +3,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 20%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 120%;
 }
 .menu-div {
   background-color: #deb887;
+  padding: 50px;
 }
 
 h1,
@@ -18,9 +22,34 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 .item {
   display: flex;
   justify-content: space-between;
   padding: 5px;
+}
+hr {
+  border: 2px solid #a52a2a;
+}
+a {
+  text-decoration: underline;
+  color: #000000;
+}
+a:hover,
+a:active {
+  color: #a52a2a;
+}
+.establish {
+  font-style: italic;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+img {
+  display: block;
 }
